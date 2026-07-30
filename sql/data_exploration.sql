@@ -43,7 +43,7 @@ FROM `project-6577c817-95ba-41b4-a38.trip_data.tripdata_01`;
 --visualization of all the duplicates
 SELECT
 ride_id,
-COUNT(*)
+COUNT(*) AS occurences
 FROM `project-6577c817-95ba-41b4-a38.trip_data.tripdata_01`
 GROUP BY ride_id
 HAVING COUNT(*)>1;
