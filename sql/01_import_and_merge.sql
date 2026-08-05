@@ -9,6 +9,9 @@
 -- Merge the 12 monthly Cyclistic datasets into one table
 -- for the 2025 analysis.
 -- ==========================================================
+
+-- Merge monthly datasets
+
 CREATE OR REPLACE TABLE
 `project-6577c817-95ba-41b4-a38.trip_data.all_trips_2025`
 
@@ -72,9 +75,8 @@ UNION ALL
 SELECT *
 FROM `project-6577c817-95ba-41b4-a38.trip_data.tripdata_12`;
 
--- ==========================================================
+
 -- Verify that the merged table contains all records
--- ==========================================================
 
 SELECT
     COUNT(*) AS total_rows
