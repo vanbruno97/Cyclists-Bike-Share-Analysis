@@ -90,7 +90,7 @@ The complete dataset contains **5,547,430 trips** after cleaning.
 | Google BigQuery | Data cleaning, feature engineering and analysis |
 | SQL | Querying and aggregation |
 | Tableau Public | Interactive dashboard creation |
-| Python (Pandas) | Reproducing the analysis (coming soon) |
+| Python (Pandas) | Reproducing the analysis |
 | Git & GitHub | Version control and project documentation |
 
 ---
